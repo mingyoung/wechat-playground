@@ -2,6 +2,10 @@
 
 > 当前为测试体验版本，功能未完善，欢迎反馈 (Bug, Feature ...)
 
+## 预览
+
+<img width="1783" alt="WeChat Playground" src="https://user-images.githubusercontent.com/6228858/56093850-003ac100-5f00-11e9-91d1-f9c7ea1cb74e.png">
+
 ## 安装
 
 ```shell
