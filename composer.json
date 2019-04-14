@@ -1,0 +1,42 @@
+{
+    "name": "mingyoung/wechat-playground",
+    "description": "WeChat",
+    "keywords": [
+        "WeChat"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "张铭阳",
+            "email": "mingyoungcheung@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "^5.8",
+        "overtrue/wechat": "^4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "orchestra/testbench": "^3.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WeChatPlayground\\WeChatPlaygroundServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "WeChatPlayground\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WeChatPlayground\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
