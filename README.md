@@ -5,7 +5,7 @@
 ## 安装
 
 ```shell
-$ composer require mingyoung/wechat-playground:1.0-dev
+$ composer require mingyoung/wechat-playground:^1.0@dev
 ```
 
 安装后发布前端文件
